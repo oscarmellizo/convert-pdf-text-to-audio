@@ -7,4 +7,5 @@ voices = engine.getProperty('voices')
 for voice in voices:
    engine.setProperty('voice', voice.id)
    engine.say(string)
+   
 engine.runAndWait()
